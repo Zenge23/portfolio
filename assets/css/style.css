@@ -1,0 +1,33 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #0779E4;
+    height: 71px;
+    align-items: center;
+}
+
+.nav-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* width: 70%; */
+    width: 70%;
+}
+
+.text-white{
+    color: white;
+}
+
+.hero{
+    background-image: url(../images/hero-bg.png);
+    height: 100vh;
+    background-size: cover;
+}
+.title{
+    font-size: 60px;
+}
+
+.subtitle{
+    font-size: 16px;
+}
